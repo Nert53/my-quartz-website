@@ -1,14 +1,14 @@
 - Umožňuje přidávat k funkci další funkcionalitu (její "obalení")
 - **Funkce vyššího řádu**: funkce, která vrací funkci nebo ji bere jako argument 
 - Syntaktický cukr
-```Python
+```python
 @decorator
 def my_func():
 	print("KMI/JP")
 ```
 
 - Demonstrací jednoduché funkcionality může být následující
-```Python
+```python
 # dekorátor
 def my_decorator(func):
     """Decorator description."""
@@ -35,7 +35,7 @@ my_function_decorated()
 
 - Používání dekorátorů může způsobit na první pohled řadu komplikací, viz dále
 - Pokud dekorovaná funkce přijímá argumenty, případně má nějakou hodnotu vracet
-```Python
+```python
 # 01 - podporujeme předání argumentů vnitřní funkci
 def do_twice(func):
     """Calls a function twice."""
@@ -78,7 +78,7 @@ def do_twice(func):
 ```
 
 - Dále tzv. *zachování identity* funkce (např. dosažitelnost docstringu)
-```Python
+```python
 # řešení je použití dekorátoru 'functools.wraps'
 
 import functools
@@ -100,7 +100,7 @@ def do_twice(func):
 # Dekorátory tříd
 - Některé běžně používané jsou již "zabudované" v Pythonu (`@classmethod`, `@staticmethod`, ...)
 - Kromě dekorování metod třídy, můžeme dekorovat i celou třídu
-```Python
+```python
 @dataclass
 class PlayingCard:
 	rank: str

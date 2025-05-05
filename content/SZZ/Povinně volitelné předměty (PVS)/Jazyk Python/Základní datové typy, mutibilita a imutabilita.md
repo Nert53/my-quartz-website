@@ -38,7 +38,7 @@
 ## Vlastnosti datových typů v Pythonu:
 1. **Dynamické přiřazení typů:** Python automaticky určuje datový typ proměnných na základě hodnoty, která je do nich přiřazena. Například:
 
-```Python
+```python
 x = 5       # x je nyní typu int
 x = "hello" # x je nyní typu str
 ```
@@ -46,7 +46,7 @@ x = "hello" # x je nyní typu str
 2. **Silná typová kontrola:** Python provádí silnou typovou kontrolu, což znamená, že nelze provádět operace s datovými typy, které nejsou kompatibilní. Například nelze sčítat číslo a řetězec, pokud není provedena konverze.
 
 4. **Dynamické rozšiřování:** Python umožňuje dynamicky rozšiřovat datové struktury, jako jsou seznamy a slovníky, přidáváním nových prvků nebo klíčů. Například:
-```Python
+```python
 list = [1, 2, 3] list.append(4) # Přidává prvek 4 na konec seznamu
 ```
 

@@ -36,16 +36,18 @@ $mobileGrid: (
       "grid-footer"',
 );
 $tabletGrid: (
-  templateRows: "auto auto auto auto",
-  templateColumns: "#{$sidePanelWidth} auto",
+  templateRows: "auto auto auto auto auto",
+  templateColumns: "auto",
   rowGap: "5px",
   columnGap: "5px",
   templateAreas:
-    '"grid-sidebar-left grid-header"\
-      "grid-sidebar-left grid-center"\
-      "grid-sidebar-left grid-sidebar-right"\
-      "grid-sidebar-left grid-footer"',
+    '"grid-header"\
+      "grid-center"\
+      "grid-sidebar-left"\
+      "grid-sidebar-right"\
+      "grid-footer"',
 );
+
 $desktopGrid: (
   templateRows: "auto auto auto",
   templateColumns: "#{$sidePanelWidth} auto #{$sidePanelWidth}",

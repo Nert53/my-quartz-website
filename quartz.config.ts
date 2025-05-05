@@ -59,8 +59,8 @@ const config: QuartzConfig = {
       }),
       Plugin.SyntaxHighlighting({
         theme: {
-          light: "andromeeda",
-          dark: "andromeeda",
+          light: "monokai",
+          dark: "monokai",
         },
         keepBackground: true,
       }),

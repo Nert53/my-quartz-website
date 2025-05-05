@@ -3,7 +3,7 @@
 - Python sám o sobě klade veliký důraz na **čitelnost kódu**
 ### Docstrings
 - Primární proprieta pro dokumentaci
-```Python
+```python
 def say_hello(name):
     """A simple function that says hello... Richie style"""
     print(f"Hello {name}, is it me you're looking for?")
@@ -11,7 +11,7 @@ def say_hello(name):
 - Vestavěná funkce `help(obj)` vypíše *docstring* objektu
 - Účelem je poskytnout stručný přehled objektu (maximálně 1 řádek)
 - Pokud jde o víceřádkový *docstring* jeho účelem je více než shrnutí a má pevně danou strukturu
-```Python
+```python
 """This is the summary line
 
 This is the further elaboration of the docstring. Within this section,
@@ -36,7 +36,7 @@ Notice that the summary and elaboration is separated by a blank line.
 - `type(var)` vrací typ dané proměnné
 ### Type hinting
 - Uživateli umožňuje vidět s jakými typy kód pracuje (avšak **NEovlivňuje** funkčnost)
-```Python
+```python
 def sum_two_numbers(a: int, b: int) -> int:
    """Sums two numbers.
  
