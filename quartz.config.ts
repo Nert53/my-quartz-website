@@ -62,7 +62,7 @@ const config: QuartzConfig = {
           light: "andromeeda",
           dark: "andromeeda",
         },
-        keepBackground: false,
+        keepBackground: true,
       }),
       Plugin.ObsidianFlavoredMarkdown({ enableInHtmlEmbed: false }),
       Plugin.GitHubFlavoredMarkdown(),
