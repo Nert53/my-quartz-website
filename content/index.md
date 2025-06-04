@@ -18,6 +18,7 @@ Tato část obsahuje vypracované otázky na SZZ na KMI UPOL pro bakalářské s
 - [[SZZ/1. Teoretické základy informatiky]]
 - [[SZZ/2. Programování a vývoj software]]
 - [[SZZ/3. Povinně volitelné předměty (PVS)]]
+- [Zkouškové otázky v PDF](2025-bc-okruhy-PVS.pdf)
 
 ## 📲 Dokumenty k aplikacím
 
