@@ -1,5 +1,3 @@
-## [[OS1 zkouškové otázky]]
-
 # Operační systém (úvod)
 - abstrakce nad HW
 - programátor chce být odstíněn od technických detailů/parametrů
@@ -122,15 +120,16 @@
 	- některé CPU neumožňují číst NEzarovnanou pamět (či penalizují výpočet)
 - `char 1B` , `int 4B`, atd. (vždy jsou teda na adresách, které jsou násobkem jejich hodnot)
 - struktury zaokrouhlovány nahoru + dobré dát si pozor na pořadí datových typů ve struktuře
-```C
-	struct foo {
-		char a;
-		// mezera 3B
-		int b;
-		char c;
-		// mezera 1B
-		short d;
-	};
+
+```c
+struct foo {
+	char a;
+	// mezera 3B
+	int b;
+	char c;
+	// mezera 1B
+	short d;
+};
 ```
 
 ### Systémy reprezentace hodnot
@@ -652,7 +651,7 @@
 - identifikace pomocí `PID`
 - při inicializace spuštěn proces `init`
 - `fork()` vytvoří nového potomka (kopie rodiče)
-```C
+```c
 pid_t n_pid = fork();
 if(n_pid < 0){
 // chyba
