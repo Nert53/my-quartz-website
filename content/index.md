@@ -1,6 +1,15 @@
 ---
 title: Vojtěch Netrh
 ---
+## 📝 Poznámky z výuka
+
+V této části jsou moje osobní poznámky k různým předmětům v průběhu studia informatiky na PřF UPOL.
+
+**Bakalářské studium**
+- [[OS1]]
+- [[OS2]]
+- [[SOFT]]
+- [[Zadání zápočtů PP3]]
 
 ## 🎓 Otázky na SZZ
 
