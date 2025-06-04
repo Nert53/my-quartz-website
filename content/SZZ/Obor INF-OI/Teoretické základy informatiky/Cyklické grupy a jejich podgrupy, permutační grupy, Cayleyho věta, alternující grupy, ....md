@@ -1,1 +1,0 @@
-- Celý název otázky: Cyklické grupy a jejich podgrupy, permutační grupy, Cayleyho věta, alternující grupy, levé a pravé třídy grup, Lagrangeova věta, direktní součin grup, konečně generované abelovské grupy, homomorfismy grup, faktorové grupy, Fermatova a Eulerova věta
