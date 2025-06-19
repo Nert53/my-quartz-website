@@ -27,7 +27,6 @@ Tato část obsahuje vypracované otázky na SZZ na KMI UPOL pro bakalářské s
 2) Multiplatformní e-book čtečka - https://github.com/readest/readest
 3) Generátor avatarů - https://boringavatars.com/
 4) Myšlenkové mapy pomocí Markdown - https://markmap.js.org/
-5) 
 
 ## 📲 Dokumenty k aplikacím
 
