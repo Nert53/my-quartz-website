@@ -116,7 +116,7 @@ aliases:
 	- instrukce brány z CS (code segment)
 	- přístup do paměti přes ESP či EBP (registry) a používá SS
 	- zbytek využívá DS (data segment)
-```C
+```c
 jmp 0xdeadbeef             // --> jmp cs:0xdeadbeaf
 mov eax, [esp + 4]         // --> mov [ss:esp + 4]
 mov eax, 0x12345678        // --> mov [ds:0x12345678]
@@ -328,7 +328,7 @@ mov eax, [gs:ebx + 10]     // explicitni pouziti segmentu
 - `ptmalloc` (verze 3, Céčko)
 - rozhraní `malloc, free, realloc, ...`
 - od OS získá souvislý blok paměti (pomocí systémového volání `brk/sbrk` či mapování souborů do paměti `/dev/zero`)
-```C
+```c
 void * simple_malloc(int size){
 	return sbrk(size);
 }
@@ -666,7 +666,7 @@ void * simple_free(int size){
 		- seznam uživatelů s jejich právy (přířazení rolí)
 		- denied ACL
 ##### Oprávnění na Windows
-	![[Pasted image 20231128115951.png]]
+- ![[Pasted image 20231128115951.png]]
 - ve skutečnosti jde jen o logické oprávnění, které jsou abstrakcí nad jemnějšími oprávněními
 ##### Oprávnění na UNIX
 - "ACL" pro vlastníka, skupina, zbytek
@@ -839,7 +839,7 @@ void * simple_free(int size){
 - existuje varianta podporující integritu
 - jednoduchá implementace
 - klíč jako
-```C
+```c
 struct btrfs_disk_key{
 	__le64 objectid;
 	u8 type;

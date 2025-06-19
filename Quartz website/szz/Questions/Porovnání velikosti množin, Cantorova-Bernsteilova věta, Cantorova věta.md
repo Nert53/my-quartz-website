@@ -12,6 +12,7 @@
 - O vztahu 2 množin
 - Pokud pro množiny $A$ a $B$ existují injekce $f: A \rightarrow B$ a $g: B \rightarrow A$, pak existuje bijekce množiny $A$ na množinu $B$.
 - Ony dvě množiny jsou stejně velké.
+- Např. Přestože pro množiny $\mathbb{N}$ a $\mathbb{Z}$ se může zdát, že $\mathbb{Z}$ bude větší, jelikož obsahuje $0$ a záporná čísla (což $\mathbb{N}$ neobsahuje), tak jsme schopni vytvořit bijekci $\mathbb{N} \rightarrow \mathbb{Z}$ z čehož podle této věty plyne, že $\mathbb{N}$ a $\mathbb{Z}$ jsou stejně velké.
 ## Cantorova věta
 - O velikosti množiny
 - Pro každou množinu $A$ platí $|A| \textless |2^A|$
