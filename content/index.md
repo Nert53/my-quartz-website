@@ -10,7 +10,7 @@ V této části jsou moje osobní poznámky k různým předmětům v průběhu 
 - [[OS2]]
 - [[SOFT]]
 - [[Zadání zápočtů PP3]]
-- [Moje bakalářská práce](obsidian://open?vault=content&file=kidiplom.pdf)
+- [Moje bakalářská práce](kidiplom.pdf)
 
 **Magisterské studium** (ještě nedoplněno)
 - [KRY]()
