@@ -10,8 +10,12 @@ V této části jsou moje osobní poznámky k různým předmětům v průběhu 
 - [[OS2]]
 - [[SOFT]]
 - [[Zadání zápočtů PP3]]
+- [Moje bakalářská práce](obsidian://open?vault=content&file=kidiplom.pdf)
 
-**Magisterské studium**
+**Magisterské studium** (ještě nedoplněno)
+- [KRY]()
+- [UMIN]()
+- [PDS]()
 
 ## 🎓 Otázky na SZZ
 
@@ -29,7 +33,6 @@ Tato část obsahuje vypracované otázky na SZZ na KMI UPOL pro bakalářské s
 4) Myšlenkové mapy pomocí Markdown - https://markmap.js.org/
 5) Infografiky o všech možných tématech - https://www.infoviz.cz/index.php
 6) Alternativa věrnostních kartiček - https://www.nocard.cz/
-7) 
 
 ## 📲 Dokumenty k aplikacím
 
