@@ -12,10 +12,10 @@ V této části jsou moje osobní poznámky k různým předmětům v průběhu 
 - [[Zadání zápočtů PP3]]
 - [Moje bakalářská práce](kidiplom.pdf)
 
-**Magisterské studium** (ještě nedoplněno)
+**Magisterské studium**
 - [KRY]()
-- [UMIN]()
-- [PDS]()
+- [UMIN](umin_notes.pdf)
+- [PDS](pds_notes.pdf)
 
 ## 🎓 Otázky na SZZ
 
