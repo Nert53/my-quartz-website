@@ -190,7 +190,7 @@ mov eax, [gs:ebx + 10]     // explicitni pouziti segmentu
 - stránkování funguje souběžně se segmentací
 - bit pro systémové stránky => zákaz přístupu z ring 3 (pouze přes spec. instrukce či gates)
 - bit pro zákaz zápisu
-<div style="page-break-after: always;"></div>
+
 # Virtuální paměť
 - proč? nedostačující primární paměť a RAM drahá
 - rozšíření o sekundární (SSD/HDD) => vznikne jeden velký paměťový prostor
@@ -316,7 +316,7 @@ mov eax, [gs:ebx + 10]     // explicitni pouziti segmentu
 	- přímo v jádru
 	- stará se, aby nedošla paměť
 	- ukončí některé běžící procesy
-<div style="page-break-after: always;"></div>
+
 # Aplikace a práce s pamětí
 - aplikace narozdíl od OS pracují jinak s pamětí
 - 2 základní typy - **zásobník** a **halda** (stack and heap)
@@ -417,7 +417,7 @@ void * simple_free(int size){
 	- pomalejší uvolňování
 	- problém s finalizací
 	- nedeterminismus
-<div style="page-break-after: always;"></div>
+
 # Mezioprocesorová komunikace (IPC)
 - procesy jsou oddělené, takže je nutné, aby spolu komunikovali
 	- proč? privilegia, zrychlení výpočtů, sdílení informací
@@ -476,8 +476,7 @@ void * simple_free(int size){
 - "hlavní funkce" `WinMain`
 
 - **remote procedure calls** ... klient volá zástupnou proceduru
-<div style="page-break-after: always;"></div>
-<div style="page-break-after: always;"></div>
+
 # I/O zařízení
 - zásadní složka ve Von Neumanově architektuře
 - různé rychlosti, druhy přístupu i pohledy
@@ -598,7 +597,7 @@ void * simple_free(int size){
 - krystal generující pravidelné pulzy (př. 1000 MHz)
 - programovatelné -> nastavení registru na hodnotu (inicializace), každý pulz je snížení, při nule přerušení
 - umožňují více funkcí - evidence času, uložení cache, plánování procesů
-<div style="page-break-after: always;"></div>
+
 # Souborové systémy a jejich implementace
 - potřeba **uchovat větší množství dat** => primární paměť nesatčí
 - perzistence dat
@@ -674,7 +673,7 @@ void * simple_free(int size){
 - ![[Pasted image 20231128120216.png]]
 - někde tyto oprávnění nemusí stačit
 - další příznaky - `setuid, setgid, sticky bit`
-<div style="page-break-after: always;"></div>
+
 # Implementace souborových systémů
 - souborové systémy pracujíccí s HDD či SSD
 - očekáváme řadu věcí
@@ -839,7 +838,7 @@ void * simple_free(int size){
 - existuje varianta podporující integritu
 - jednoduchá implementace
 - klíč jako
-```c
+```C
 struct btrfs_disk_key{
 	__le64 objectid;
 	u8 type;
@@ -864,8 +863,7 @@ struct btrfs_disk_key{
 - problém: disky a oddíly mají pevnou velikost => přidání vrstvy mezi FS a blokové zařízení
 - fyzický disk rozdělen na rozsahy
 - může emulovat RAID, transparentně šifrovat
-<div style="page-break-after: always;"></div>
-<div style="page-break-after: always;"></div>
+
 # Bezpečnost
 - proč lidi útočí je celkem jasné - slídění, špionáž, profitovat (peníze nebo výkon), for fun
 - hacker se to snaží pochopit do hloubky (vlastně je to žádané - odborník v oblasti)
@@ -964,7 +962,7 @@ struct btrfs_disk_key{
 - firmware rootkit, hypevisor, kernel rootkit, library rootkit
 
 - na útoky jsou samozřejmě vázány tresty a trestní zákoník
-<div style="page-break-after: always;"></div>
+
 # Virtualizace
 - více důvodů - konsolidace HW, na jednom HW současně více OS, výměny hardwaru bez změny SW
 ### Virtualizace na x86 a AMD64
