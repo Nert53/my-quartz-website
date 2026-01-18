@@ -13,9 +13,9 @@ V této části jsou moje osobní poznámky k různým předmětům v průběhu 
 - [Moje bakalářská práce](kidiplom.pdf)
 
 **Magisterské studium**
-- [KRY]()
-- [UMIN](umin_notes.pdf)
-- [PDS](pds_notes.pdf)
+- [KRY](assets/kry_notes.pdf)
+- [UMIN](assets/umin_notes.pdf)
+- [PDS](assets/pds_notes.pdf)
 
 ## 🎓 Otázky na SZZ
 
