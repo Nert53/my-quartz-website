@@ -16,6 +16,11 @@ V této části jsou moje osobní poznámky k různým předmětům v průběhu 
 - [KRY](assets/kry_notes.pdf)
 - [UMIN](assets/umin_notes.pdf)
 - [PDS](assets/pds_notes.pdf)
+---
+- [BEPS](assets/beps_notes.pdf)
+- [FKA]
+- [PRKL](assets/prkl_notes.pdf)
+- [KOM](assets/kom_notes.pdf)
 
 ## 🎓 Otázky na SZZ
 
