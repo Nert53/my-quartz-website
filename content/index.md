@@ -11,16 +11,17 @@ V této části jsou moje osobní poznámky k různým předmětům v průběhu 
 - [[SOFT]]
 - [[Zadání zápočtů PP3]]
 - [Moje bakalářská práce](kidiplom.pdf)
-
-**Magisterské studium**
-- [KRY](assets/kry_notes.pdf)
-- [UMIN](assets/umin_notes.pdf)
-- [PDS](assets/pds_notes.pdf)
 ---
-- [BEPS](assets/beps_notes.pdf)
-- [FKA]
-- [PRKL](assets/prkl_notes.pdf)
-- [KOM](assets/kom_notes.pdf)
+**Magisterské studium**
+- [KRY - Kryptografie](assets/kry_notes.pdf)
+- [UMIN - Umělá inteligence](assets/umin_notes.pdf)
+- [PDS - Paralelní a distribuované systémy](assets/pds_notes.pdf)
+
+- [BEPS - Bezpečnost počítačových systémů](assets/beps_notes.pdf)
+- [PRKL - Překladače](assets/prkl_notes.pdf)
+- [KOM - Komprese dat](assets/kom_notes.pdf)
+- [FKA] ???
+- [MLDM1] ???
 
 ## 🎓 Otázky na SZZ
 
