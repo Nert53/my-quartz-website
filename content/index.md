@@ -32,7 +32,11 @@ Tato první část obsahuje vypracované otázky na SZZ na KMI UPOL pro **bakal�
 - [[szz/3. Povinně volitelné předměty (PVS)]]
 - [Zkouškové otázky v PDF](2025-bc-okruhy-PVS.pdf)
 
-Pro **magisterské studium** jsou otázky na [jiném odkaze](https://docmost.screedy.com/share/mb59dfqvnm/p/statni-zaverecna-zkouska-DqN8wnpb8t). Jedná se o specializaci Aplikovaná informatika - vývoj SW. Otázky jsou vypracované v létě 2026 a neobsahují všechny předměty. Tady za vypracování vděčíme Screedy 🫶🏻.
+Pro **magisterské studium** vychází otázky z [tohoto odkazu](https://docmost.screedy.com/share/mb59dfqvnm/p/statni-zaverecna-zkouska-DqN8wnpb8t). Jedná se o specializaci Aplikovaná informatika - vývoj SW. Otázky jsou vypracované v létě 2026 a neobsahují všechny předměty. Tady za vypracování vděčíme Screedy 🫶🏻.
+
+- [[szz-mgr/1. Povinné předměty]]
+- [[szz-mgr/2. Povinně volitelné předměty]]
+- [[3. Ostatní předměty]]
 
 ## 🔗 Zajímavé odkazy
 1) Knihovna volně dostupných 3D ikon vytvořených AI - https://www.thiings.co/things
